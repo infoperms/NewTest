@@ -13,13 +13,7 @@
         "icon_unicode": "\uF1B7",
         "path": "/app/main/crm/personContacts"
     },
-    {
-        "title": "Article.MyArticles",
-        "permission": "Pages.MyArticles",
-        "icon": "flaticon2-writing",
-        "icon_unicode": "\uF1C9",
-        "path": "/app/main/myArticles"
-    },
+    
     {
         "title": "Account.AccountManagement",
         "permission": "Pages.Accounts,Pages.Contacts,Pages.Users",
