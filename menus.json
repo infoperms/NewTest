@@ -1,0 +1,396 @@
+[
+    {
+        "title": "Dashboard",
+        "permission": "Pages.MainDashboard",
+        "icon": "flaticon-line-graph",
+        "icon_unicode": "\uF161",
+        "path": "/app/main/dashboard"
+    },
+    {
+        "title": "PersonContacts",
+        "permission": "Pages.PersonContacts",
+        "icon": "flaticon-more",
+        "icon_unicode": "\uF1B7",
+        "path": "/app/main/crm/personContacts"
+    },
+    {
+        "title": "Article.MyArticles",
+        "permission": "Pages.MyArticles",
+        "icon": "flaticon2-writing",
+        "icon_unicode": "\uF1C9",
+        "path": "/app/main/myArticles"
+    },
+    {
+        "title": "Account.AccountManagement",
+        "permission": "Pages.Accounts,Pages.Contacts,Pages.Users",
+        "icon": "flaticon2-group",
+        "icon_unicode": "\uF11A",
+        "path": "/app/main/account/accounts",
+        "subMenus": [
+            {
+                "title": "Accounts",
+                "permission": "Pages.Accounts",
+                "icon": "flaticon2-group",
+                "icon_unicode": "\uF11A",
+                "path": "/app/main/account/accounts"
+            },
+            {
+                "title": "Users",
+                "permission": "Pages.Users",
+                "icon": "flaticon-users",
+                "icon_unicode": "\uF1AF",
+                "path": "/app/main/account/users"
+            },
+            {
+                "title": "Contacts",
+                "permission": "Pages.Contacts",
+                "icon": "flaticon-profile",
+                "icon_unicode": "\uF17F",
+                "path": "/app/main/crm/contacts"
+            },
+            {
+                "title": "Equipments",
+                "permission": "Pages.Equipments",
+                "icon": "flaticon-list-3",
+                "icon_unicode": "\uF1DA",
+                "path": "/app/main/crm/equipments"
+            }
+        ]
+    },
+    {
+        "title": "CoverageRequests",
+        "permission": "Pages.CoverageRequests,Pages.Events,Pages.Schedules,Pages.Resources",
+        "icon": "flaticon-clock-2",
+        "icon_unicode": "\uF15B",
+        "path": "/app/main/mediaCoverage/coverageRequests",
+        "subMenus": [
+            {
+                "title": "Event.RequestsNumber",
+                "permission": "Pages.CoverageRequests",
+                "icon": "flaticon-clock-2",
+                "icon_unicode": "\uF15B",
+                "path": "/app/main/mediaCoverage/coverageRequests"
+            },
+            {
+                "title": "Event.Events",
+                "permission": "Pages.Events",
+                "icon": "flaticon-time-3",
+                "icon_unicode": "\uF1DF",
+                "path": "/app/main/agenda/events"
+            },
+            {
+                "title": "Calendar.Calendar",
+                "permission": "Pages.Calander",
+                "icon": "flaticon-calendar-2",
+                "icon_unicode": "\uF1DD",
+                "path": "/app/main/agenda/calendar"
+            },
+            {
+                "title": "Calendar.Resources",
+                "permission": "Pages.CoverageRequests.Resources",
+                "icon": " flaticon-network",
+                "icon_unicode": "\uF11A",
+                "path": "/app/main/agenda/resource"
+            }
+        ]
+    },
+    {
+        "title": "Task.Tasks",
+        "permission": "Pages.Tasks",
+        "icon": "flaticon-clipboard",
+        "icon_unicode": "\uF1D6",
+        "path": "/app/main/agenda/tasks"
+    },
+    {
+        "title": "EvaluationFrom",
+        "permission": "Pages.EvaluationFroms.GetAll",
+        "icon": "flaticon-graphic",
+        "icon_unicode": "\uF138",
+        "path": "/app/main/evaluation/evaluation",
+        "subMenus": [
+            {
+                "title": "EvaluationFrom",
+                "permission": "Pages.EvaluationFroms.GetAll",
+                "icon": "flaticon-graphic",
+                "icon_unicode": "\uF138",
+                "path": "/app/main/evaluation/evaluation"
+            },
+            {
+                "title": "Evaluation.FormResults",
+                "permission": "Pages.EvaluationFroms.GetAll",
+                "icon": "flaticon-layers",
+                "icon_unicode": "\uF191",
+                "path": "/app/main/evaluation/results"
+            }
+        ]
+    },
+    {
+        "title": "WAMConnect.Header",
+        "permission": "Pages.WamConnect",
+        "icon": "flaticon-infinity",
+        "icon_unicode": "\uF18A",
+        "path": "/app/main/wamConnect/wamConnect"
+    },
+    {
+        "title": "Editorial.Editorial",
+        "permission": "Pages.Articles,Pages.TextElements,Pages.PhotoElements,Pages.VideoElements,Pages.AudioElements,Pages.SocialElements",
+        "icon": "far fa-newspaper",
+        "icon_unicode": "\uF138",
+        "path": "/app/main/editorial/workArea",
+        "subMenus": [
+            {
+                "title": "WorkArea.Header",
+                "permission": "Pages.Articles",
+                "icon": "icon-xl la la-newspaper-o font-30",
+                "icon_unicode": "\uF138",
+                "path": "/app/main/editorial/workArea"
+            },
+            {
+                "title": "ManuScript.Header",
+                "permission": "Pages.TextElements",
+                "icon": "flaticon2-sheet",
+                "icon_unicode": "\uF1C9",
+                "path": "/app/main/editorial/manuscripts"
+            },
+            {
+                "title": "Photo.Header",
+                "permission": "Pages.PhotoElements",
+                "icon": "flaticon2-photograph",
+                "icon_unicode": "\uF127",
+                "path": "/app/main/editorial/photos"
+            },
+            {
+                "title": "Video.Header",
+                "permission": "Pages.VideoElements",
+                "icon": "icon-xl la la-video-camera font-30",
+                "icon_unicode": "\uF127",
+                "path": "/app/main/editorial/videos"
+            },
+            {
+                "title": "Social.Header",
+                "permission": "Pages.SocialElements",
+                "icon": "icon-xl la la-share-alt font-30",
+                "icon_unicode": "\uF188",
+                "path": "/app/main/editorial/social"
+            },
+            {
+                "title": "Audio.Header",
+                "permission": "Pages.AudioElements",
+                "icon": "flaticon2-speaker",
+                "icon_unicode": "\uF182",
+                "path": "/app/main/editorial/audio"
+            },
+            {
+                "title": "Agencies.Header",
+                "permission": "Pages.AgencyArticles",
+                "icon": "icon-xl la la-building-o font-30",
+                "icon_unicode": "\uF15A",
+                "path": "/app/main/editorial/agencies"
+            },
+            {
+                "title": "Agencies.InternationalNews",
+                "permission": "Pages.AgencyArticles",
+                "icon": "international-news",
+                "icon_unicode": "\uF1BC",
+                "path": "/app/main/editorial/agenciesinternational"
+            },
+            {
+                "title": "Agencies.LocalNews",
+                "permission": "Pages.AgencyArticles",
+                "icon": "mena-news",
+                "icon_unicode": "\uF1A1",
+                "path": "/app/main/editorial/agenciesarabic"
+            },
+            {
+                "title": "Agencies.GulfNews",
+                "permission": "Pages.AgencyArticles",
+                "icon": "gulf-news",
+                "icon_unicode": "\uF1A0",
+                "path": "/app/main/editorial/agenciesgulf"
+            },
+            {
+                "title": "Social.Feed",
+                "permission": "Pages.SocialFeed",
+                "icon": "icon-xl la la-share-alt font-30",
+                "icon_unicode": "\uF1A0",
+                "path": "/app/main/editorial/socialFeed"
+            }
+        ]
+    },
+    {
+        "title": "Tag.Tags",
+        "permission": "Pages.Tags",
+        "icon": "flaticon2-tag",
+        "icon_unicode": "\uF1A4",
+        "path": "/app/main/core/tags"
+    },
+    {
+        "title": "Administration",
+        "permission": "Pages.Administration",
+        "icon": "flaticon-interface-8",
+        "icon_unicode": "\uF194",
+        "path": "/app/admin/users",
+        "subMenus": [
+            {
+                "title": "NotificationTypes",
+                "permission": "Pages.Administration.NotificationTypes",
+                "icon": "flaticon-alert",
+                "icon_unicode": "\uF103",
+                "path": "/app/admin/notification/notificationTypes"
+            },
+            {
+                "title": "EmialTemplate.EmailTemplates",
+                "permission": "Pages.Administration.EmailTemplates",
+                "icon": "flaticon-email",
+                "icon_unicode": "\uF113",
+                "path": "/app/admin/templating/emailTemplates"
+            },
+            {
+                "title": "NotificationTemplates.NotificationTemplate",
+                "permission": "Pages.Administration.NotificationTemplates",
+                "icon": "fas fa-bell",
+                "icon_unicode": "\uF1B5",
+                "path": "/app/admin/templating/notificationTemplates"
+            },
+            {
+                "title": "NotificationQueueDetails.Queues",
+                "permission": "Pages.Administration.NotifcationQueuings",
+                "icon": "fas fa-stream",
+                "icon_unicode": "\uf550",
+                "path": "/app/admin/notification/queues"
+            },
+            {
+                "title": "StorageDevices",
+                "permission": "Pages.Administration.StorageDevices",
+                "icon": "la la-server icon-4x m-xl-3",
+                "icon_unicode": "\uF178",
+                "path": "/app/admin/storage/storageDevices"
+            },
+            {
+                "title": "IntegrationGroup.IntegrationGroups",
+                "permission": "Pages_Administration_IntegrationGroups",
+                "icon": "flaticon-tabs",
+                "icon_unicode": "\uF1CE",
+                "path": "/app/admin/transmitionGroup"
+            },
+            {
+                "title": "Assets",
+                "permission": "Pages.Administration.Assets",
+                "icon": "flaticon-responsive",
+                "icon_unicode": "\uF105",
+                "path": "/app/admin/storage/assets"
+            },
+            {
+                "title": "AssetTypes",
+                "permission": "Pages.Administration.AssetTypes",
+                "icon": "flaticon-browser",
+                "icon_unicode": "\uF121",
+                "path": "/app/admin/storage/assetTypes"
+            },
+            {
+                "title": "Roles",
+                "permission": "Pages.Administration.Roles",
+                "icon": "flaticon-profile-1",
+                "icon_unicode": "\uF1B0",
+                "path": "/app/admin/roles"
+            },
+            {
+                "title": "Users",
+                "permission": "Pages.Administration.Users",
+                "icon": "flaticon-users",
+                "icon_unicode": "\uF1AF",
+                "path": "/app/admin/users"
+            },
+            {
+                "title": "Organization Units",
+                "permission": "Pages.Administration.OrganizationUnits",
+                "icon": "flaticon-map",
+                "icon_unicode": "\uF101",
+                "path": "/app/admin/organization-units"
+            },
+            {
+                "title": "Languages",
+                "permission": "Pages.Administration.Languages",
+                "icon": "flaticon-tabs",
+                "icon_unicode": "\uF18B",
+                "path": "/app/admin/languages"
+            },
+            {
+                "title": "AuditLogs",
+                "permission": "Pages.Administration.AuditLogs",
+                "icon": "flaticon-folder-1",
+                "icon_unicode": "\uF19C",
+                "path": "/app/admin/auditLogs"
+            },
+            {
+                "title": "Maintenance",
+                "permission": "Pages.Administration.Host.Maintenance",
+                "icon": "flaticon-lock",
+                "icon_unicode": "\uF1B1",
+                "path": "/app/admin/maintenance"
+            },
+            {
+                "title": "FeesPlan.FeesPlan",
+                "permission": "Pages.Administration.FeesPlans",
+                "icon": "fas fa-file-invoice-dollar",
+                "icon_unicode": "\uF123",
+                "path": "/app/admin/feesplan"
+            },
+            {
+                "title": "SubscriptionPlan.SubscriptionPlan",
+                "permission": "Pages.Administration.SubscriptionPlans",
+                "icon": "far fa-credit-card",
+                "icon_unicode": "\uF13E",
+                "path": "/app/admin/subscriptionplan"
+            },
+            {
+                "title": "DynamicProperties",
+                "permission": "Pages.Administration.DynamicProperties",
+                "icon": "flaticon-interface-8",
+                "icon_unicode": "\uF194",
+                "path": "/app/admin/dynamic-property"
+            },
+            {
+                "title": "Settings",
+                "permission": "Pages.Administration.Tenant.Settings",
+                "icon": "flaticon-settings",
+                "icon_unicode": "\uF15D",
+                "path": "/app/admin/tenantSettings"
+            }
+        ]
+
+    },
+    //{
+    //    "title": "Footer.AboutWam",
+    //    "icon": "flaticon-interface-8",
+    //    "icon_unicode": "\uf1cc",
+    //    "path": "/app/about",
+    //    "subMenus": [
+    //        {
+    //            "title": "Footer.AboutWam",
+    //            "icon": "flaticon-alert",
+    //            "icon_unicode": "\uf1cc",
+    //            "path": "/app/about"
+    //        },
+    //        {
+    //            "title": "Footer.Privacy",
+    //            "icon": "flaticon-alert",
+    //            "icon_unicode": "\uf11c",
+    //            "path": "/app/privacy"
+    //        },
+    //        {
+    //            "title": "Footer.Legal",
+    //            "icon": "flaticon-email",
+    //            "icon_unicode": "\uf1e1",
+    //            "path": "/app/terms-conditions"
+    //        },
+    //        {
+    //            "title": "Footer.Contact",
+    //            "icon": "fas fa-bell",
+    //            "icon_unicode": "\uf17f",
+    //            "path": "/app/contact"
+    //        }
+    //    ]
+    //}
+
+]
